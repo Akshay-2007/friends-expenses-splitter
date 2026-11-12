@@ -26,6 +26,7 @@
     "verify": "pnpm typecheck && pnpm i18n:audit && pnpm marketing-copy:audit && pnpm ui-icons:audit && pnpm test && pnpm --filter @peanut-split/api test:integration && pnpm --filter @peanut-split/api verify:settle"
   },
   "devDependencies": {
+    "next": "latest",
     "prettier": "^3.9.9",
     "typescript": "^5.9.3"
   },
